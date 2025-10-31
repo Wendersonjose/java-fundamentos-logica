@@ -39,6 +39,22 @@ java Mensagem
 | `OperadorTernario.java` | Operador ?: |
 | `Variaveis.java` | Declaração de variáveis e regras de nomenclatura |
 
+
+🧠 Tecnologias utilizadas
+
+Java 17+
+
+VS Code 
+
+Git e GitHub
+
+📝 Licença
+
+Este projeto está sob a licença MIT.
+Sinta-se à vontade para utilizar o código para fins de aprendizado e estudo.
+
 ---
 
-**Autor:** Wenderson José
+**Autor:**  Wenderson José
+📧 wenderson.teles@icloud.com
+💼 github.com/Wendersonjose
