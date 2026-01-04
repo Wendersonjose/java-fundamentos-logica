@@ -1,3 +1,5 @@
+package Exercicios;
+
 
 /*
     Peça um número, em seguida exiba a tabuada.

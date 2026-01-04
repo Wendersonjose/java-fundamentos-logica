@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
     Crie uma matriz 3x2 vazia.
 

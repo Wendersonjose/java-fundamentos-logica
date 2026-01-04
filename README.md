@@ -27,26 +27,46 @@ java NomeDoArquivo
 ### Exemplo Prático
 ```bash
 # Compilar o arquivo Mensagem.java
-javac logica_java/java-fundamentos-logica/java-fundamentos-logica/Mensagem.java
+javac java-fundamentos-logica/Mensagem.java
 
 # Executar o programa
 java Mensagem
 ```
 
+### Executar Arquivos com Pacotes
+```bash
+# Compilar arquivo de um pacote (a partir da raiz do projeto)
+javac POO/conceitos/Main.java
+
+# Executar arquivo de um pacote
+java POO.conceitos.Main
+
+# Ou usar o comando Run do VS Code (recomendado)
+# Clique com botão direito no arquivo → Run Java
+```
+
 ## 📁 Estrutura do Projeto
 
 ```
-logica_java/
-├── java-fundamentos-logica/
-│   ├── Exercicios/           # Exercícios práticos
-│   │   ├── Exercicio01.java
-│   │   ├── Exercicio02.java
-│   │   └── Exercicio03.java
-│   └── java-fundamentos-logica/  # Conceitos fundamentais
-│       ├── Concatenacao.java
-│       ├── Condicionais.java
-│       ├── Constantes.java
-│       └── ... (demais arquivos)
+java-fundamentos-logica/
+├── Exercicios/           # Exercícios práticos
+│   ├── Exercicio01.java
+│   ├── Exercicio02.java
+│   └── ... (demais exercícios)
+├── Extras/               # Exemplos extras
+│   ├── ExemploArrayList.java
+│   ├── ExemploHashMap.java
+│   └── ... (demais exemplos)
+├── java-fundamentos-logica/  # Conceitos fundamentais
+│   ├── Concatenacao.java
+│   ├── Condicionais.java
+│   ├── Constantes.java
+│   └── ... (demais arquivos)
+└── POO/                  # Programação Orientada a Objetos
+    ├── conceitos/
+    ├── getset/
+    ├── heranca/
+    └── modificadoresdeacesso/
 ```
 
 ## 📋 Conteúdo dos Exercícios
@@ -66,7 +86,7 @@ logica_java/
 |---------|----------|-----------|
 | `OperadoresAritmeticos.java` | Operadores Aritméticos | +, -, *, /, % |
 | `OperadoresRelacionais.java` | Operadores Relacionais | ==, !=, <, >, <=, >= |
-| `OperadoresLogicos.java` | Operadores Lógicos | &&, \\|\\|, ! |
+| `OperadoresLogicos.java` | Operadores Lógicos | &&, \|\|, ! (AND, OR, NOT) |
 | `OperadorTernario.java` | Operador Ternário | Sintaxe ? : |
 
 ### 🔀 Estruturas de Controle
@@ -91,20 +111,55 @@ logica_java/
 | `Vetor.java` | Arrays Unidimensionais | Declaração, inicialização e manipulação |
 | `Matriz.java` | Arrays Bidimensionais | Matrizes e algoritmos relacionados |
 
+### 🧩 Programação Orientada a Objetos (POO)
+| Pasta | Conceito | Descrição |
+|---------|----------|-----------|
+| `POO/conceitos/` | Conceitos Básicos | Classes, objetos, atributos e métodos |
+| `POO/getset/` | Encapsulamento | Getters, Setters e modificadores de acesso |
+| `POO/heranca/` | Herança | Reutilização de código através de herança |
+| `POO/modificadoresdeacesso/` | Modificadores | Public, private, protected |
+
+### 📦 Estruturas de Dados Avançadas (Extras)
+| Arquivo | Conceito | Descrição |
+|---------|----------|-----------|
+| `ExemploArrayList.java` | ArrayList | Lista dinâmica implementada com array |
+| `ExemploLinkedList.java` | LinkedList | Lista duplamente encadeada |
+| `ExemploHashMap.java` | HashMap | Estrutura chave-valor |
+| `ExemploStack.java` | Stack | Pilha (LIFO - Last In First Out) |
+| `ExemploQueue.java` | Queue | Fila (FIFO - First In First Out) |
+| `Enums.java` | Enumerações | Tipos enumerados |
+| `Modal.java` | JOptionPane | Interface gráfica com modais |
+| `TratamentoErros.java` | Exceções | Try-catch e tratamento de erros |
+
 ### 🎯 Exercícios Práticos
-| Arquivo | Nível | Descrição |
-|---------|-------|-----------|
-| `Exercicio01.java` | Básico | Aplicação de conceitos fundamentais |
-| `Exercicio02.java` | Intermediário | Combinação de estruturas |
-| `Exercicio03.java` | Avançado | Resolução de problemas complexos |
+| Arquivo | Descrição |
+|---------|-----------|
+| `Exercicio01.java` | Calcular média de duas notas e verificar aprovação |
+| `Exercicio02.java` | Encontrar o menor entre três números |
+| `Exercicio03.java` | Somar ou multiplicar dois números conforme condição |
+| `Exercicio04.java` | Exercício intermediário |
+| `Exercicio05.java` | Calculadora com operações básicas |
+| `Exercicio06.java` | Sistema de cálculo de produtos |
+| `Exercicio07.java` | Soma de números até digitar zero |
+| `Exercicio08.java` | Exercício avançado |
+| `Exercicio09.java` | Contar pares e ímpares em vetor |
+| `Exercicio10.java` | Armazenar e exibir nomes em vetor |
+| `Exercicio11.java` | Matriz de estados e cidades |
+| `Exercicio12.java` | Matriz 3x3 e soma de valores |
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java** - Linguagem de programação principal
+- **Java SE** - Standard Edition
 - **JDK 8+** - Kit de desenvolvimento Java
-- **VS Code** - Editor de código (recomendado)
+- **VS Code** - Editor de código recomendado com Extension Pack for Java
 - **Git** - Controle de versão
 - **GitHub** - Hospedagem do repositório
+
+### Extensões Recomendadas para VS Code
+- Extension Pack for Java (Microsoft)
+- Language Support for Java (Red Hat)
+- Debugger for Java (Microsoft)
+- Maven for Java (Microsoft)
 
 ## 🎓 Como Estudar
 

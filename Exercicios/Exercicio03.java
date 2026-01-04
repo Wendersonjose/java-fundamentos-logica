@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
  * Peça dois números inteiros.
  * Se forem iguais, faça a soma, caso contrario faça a multiplicação.

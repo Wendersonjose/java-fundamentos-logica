@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
     Informe o código do produto e a quantidade, em seguida retorne o total a pagar.
 

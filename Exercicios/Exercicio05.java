@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
     Peça dois números inteiros e um tipo de cálculo.
 

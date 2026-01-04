@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
     Peça diversos números, até que seja informado zero.
 

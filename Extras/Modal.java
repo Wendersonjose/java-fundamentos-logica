@@ -1,3 +1,5 @@
+package Extras;
+
 import javax.swing.JOptionPane;
 
 public class Modal {

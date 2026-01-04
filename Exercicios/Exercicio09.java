@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
     Crie um vetor contendo os números: 5, 8, 3, 1, 9.
 

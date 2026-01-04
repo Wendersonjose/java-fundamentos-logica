@@ -1,3 +1,5 @@
+package Extras;
+
 import java.util.LinkedList;
 
 public class ExemploLinkedList {

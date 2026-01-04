@@ -1,3 +1,5 @@
+package POO.heranca;
+
 public class Colaborador extends Pessoa {
 
     private String cargo;

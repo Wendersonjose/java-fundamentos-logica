@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
  * Peça tres numeros inteiros, em seguida retorne o menor informado 
  */

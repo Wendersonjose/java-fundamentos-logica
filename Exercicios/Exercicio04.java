@@ -1,3 +1,5 @@
+package Exercicios;
+
 
 /*
     Crie um conversor de moedas.

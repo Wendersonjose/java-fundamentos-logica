@@ -1,3 +1,5 @@
+package POO.heranca;
+
 public class Pessoa {
 
     protected String nome;

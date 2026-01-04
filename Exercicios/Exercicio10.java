@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
     Crie um vetor contendo três posições vazias.
 

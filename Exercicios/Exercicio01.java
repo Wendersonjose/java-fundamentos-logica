@@ -1,3 +1,5 @@
+package Exercicios;
+
 /*
  * Peça duas notas, exiba a média e a situacao
  * 

@@ -1,3 +1,5 @@
+package Extras;
+
 enum Pagamentos{
     CARTAO_CREDITO,CARTAO_DEBITO,PIX
 }
