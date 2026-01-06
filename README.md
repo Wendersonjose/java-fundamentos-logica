@@ -63,10 +63,15 @@ java-fundamentos-logica/
 │   ├── Constantes.java
 │   └── ... (demais arquivos)
 └── POO/                  # Programação Orientada a Objetos
+    ├── abstracao/
     ├── conceitos/
+    ├── estatico/
     ├── getset/
     ├── heranca/
-    └── modificadoresdeacesso/
+    ├── interfaces/
+    ├── modificadoresdeacesso/
+    ├── polimorfismo1/
+    └── polimorfismo2/
 ```
 
 ## 📋 Conteúdo dos Exercícios
@@ -118,6 +123,11 @@ java-fundamentos-logica/
 | `POO/getset/` | Encapsulamento | Getters, Setters e modificadores de acesso |
 | `POO/heranca/` | Herança | Reutilização de código através de herança |
 | `POO/modificadoresdeacesso/` | Modificadores | Public, private, protected |
+| `POO/estatico/` | Membros Estáticos | Atributos e métodos static |
+| `POO/abstracao/` | Abstração | Classes abstratas e métodos abstratos |
+| `POO/interfaces/` | Interfaces | Contratos e implementação de interfaces |
+| `POO/polimorfismo1/` | Polimorfismo (Sobrecarga) | Sobrecarga de métodos |
+| `POO/polimorfismo2/` | Polimorfismo (Sobrescrita) | Sobrescrita de métodos e herança |
 
 ### 📦 Estruturas de Dados Avançadas (Extras)
 | Arquivo | Conceito | Descrição |
