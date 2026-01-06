@@ -4,16 +4,21 @@ public class Escolha {
 
         String cidade = "São Paulo";
 
-        //Switch express
+    //Switch express
 
-        String mensagem = switch(cidade){
-            case "São Paulo"-> "maior cidade do pais";
-            case "Rio de Janeiro" -> "Cidade de belas praias";
-            default -> "cidade nao encontrada";
-
-       
-        };
-             System.out.println(mensagem);
+    String mensagem;
+    switch(cidade){
+        case "São Paulo":
+            mensagem = "maior cidade do pais";
+            break;
+        case "Rio de Janeiro":
+            mensagem = "Cidade de belas praias";
+            break;
+        default:
+            mensagem = "cidade nao encontrada";
+            break;
+    }
+    System.out.println(mensagem);
 
         // Estrutura de Escolha
      /*/   switch (cidade) {
