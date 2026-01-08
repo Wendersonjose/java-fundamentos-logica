@@ -49,20 +49,49 @@ java POO.conceitos.Main
 
 ```
 java-fundamentos-logica/
-├── Exercicios/           # Exercícios práticos
+├── Exercicios/                       # Exercícios práticos de lógica
 │   ├── Exercicio01.java
 │   ├── Exercicio02.java
 │   └── ... (demais exercícios)
-├── Extras/               # Exemplos extras
+├── Exercicios Orientacao a Objetos/ # Exercícios de POO
+│   ├── ex01/                        # Classe Numero
+│   ├── ex02/                        # Classe Horário
+│   ├── ex03/                        # Classe Média
+│   ├── ex04/                        # Classe Contador
+│   ├── ex05/                        # Herança: Produto, Eletrônico, Vestuário
+│   └── ex06/                        # Sistema de Pagamento (Loja)
+├── Extras/                          # Exemplos extras
 │   ├── ExemploArrayList.java
 │   ├── ExemploHashMap.java
-│   └── ... (demais exemplos)
-├── java-fundamentos-logica/  # Conceitos fundamentais
+│   ├── ExemploLinkedList.java
+│   ├── ExemploQueue.java
+│   ├── ExemploStack.java
+│   ├── Crud.JAVA
+│   ├── Enums.java
+│   ├── Modal.java
+│   └── TratamentoErros.java
+├── java-fundamentos-logica/         # Conceitos fundamentais
 │   ├── Concatenacao.java
 │   ├── Condicionais.java
 │   ├── Constantes.java
-│   └── ... (demais arquivos)
-└── POO/                  # Programação Orientada a Objetos
+│   ├── Conversao.java
+│   ├── Escolha.java
+│   ├── Estrutura1.java
+│   ├── Estrutura2.java
+│   ├── Interacao.java
+│   ├── LacoFacaEnquanto.java
+│   ├── LacoPara.java
+│   ├── LacoParaCada.java
+│   ├── LacosEnquanto.java
+│   ├── Matriz.java
+│   ├── Mensagem.java
+│   ├── OperadoresAritmeticos.java
+│   ├── OperadoresLogicos.java
+│   ├── OperadoresRelacionais.java
+│   ├── OperadorTernario.java
+│   ├── Variaveis.java
+│   └── Vetor.java
+└── POO/                             # Programação Orientada a Objetos
     ├── abstracao/
     ├── conceitos/
     ├── estatico/
@@ -140,8 +169,49 @@ java-fundamentos-logica/
 | `Enums.java` | Enumerações | Tipos enumerados |
 | `Modal.java` | JOptionPane | Interface gráfica com modais |
 | `TratamentoErros.java` | Exceções | Try-catch e tratamento de erros |
+| `Crud.JAVA` | CRUD | Operações Create, Read, Update, Delete |
 
-### 🎯 Exercícios Práticos
+## 📖 Detalhamento dos Exercícios de POO
+
+### Exercício 01 - Classe Numero
+**Objetivo**: Introdução a classes e métodos básicos
+- Criar uma classe que recebe um número
+- Implementar método para verificar se é positivo, negativo ou zero
+- Retornar mensagem apropriada
+
+### Exercício 02 - Classe Horario
+**Objetivo**: Validação de dados e formatação
+- Criar classe para representar horários
+- Validar horas (0-23), minutos e segundos (0-59)
+- Formatar saída no padrão hh:mm:ss
+
+### Exercício 03 - Classe Media
+**Objetivo**: Cálculos e lógica de aprovação
+- Calcular média de notas
+- Verificar se o aluno foi aprovado (média ≥ 7.0)
+- Exibir resultado com formatação adequada
+
+### Exercício 04 - Classe Contador
+**Objetivo**: Controle de estado e métodos de manipulação
+- Implementar contador com valor inicial
+- Métodos: incrementar, decrementar, zerar
+- Exibir valor atual
+
+### Exercício 05 - Herança com Produtos
+**Objetivo**: Herança, especialização e polimorfismo
+- Classe base `Produto` com atributos comuns
+- Classe `Eletronico` com garantia e voltagem
+- Classe `Vestuario` com tamanho e material
+- Cálculo de preço final com impostos específicos
+
+### Exercício 06 - Sistema de Loja
+**Objetivo**: Sistema completo com múltiplas classes
+- Classe `Loja` para gerenciar vendas
+- Classe `Pagamento` para processar pagamentos
+- Implementar formas de pagamento: À vista, Cartão, Boleto
+- Cálculo de descontos e acréscimos
+
+### 🎯 Exercícios Práticos de Lógica
 | Arquivo | Descrição |
 |---------|-----------|
 | `Exercicio01.java` | Calcular média de duas notas e verificar aprovação |
@@ -156,6 +226,16 @@ java-fundamentos-logica/
 | `Exercicio10.java` | Armazenar e exibir nomes em vetor |
 | `Exercicio11.java` | Matriz de estados e cidades |
 | `Exercicio12.java` | Matriz 3x3 e soma de valores |
+
+### 🏆 Exercícios de Orientação a Objetos
+| Exercício | Conceito | Descrição |
+|-----------|----------|-----------|
+| **ex01** | Classe Básica | **Numero**: Classe que armazena um número e verifica se é positivo, negativo ou zero |
+| **ex02** | Validação de Dados | **Horario**: Classe que valida e formata horários (hh:mm:ss) |
+| **ex03** | Cálculos e Métodos | **Media**: Classe que calcula média de notas e verifica aprovação |
+| **ex04** | Estado e Controle | **Contador**: Classe com incremento, decremento e reset de contador |
+| **ex05** | Herança e Especialização | **Produto/Eletronico/Vestuario**: Sistema de produtos com herança e cálculo de preço final |
+| **ex06** | Sistema Completo | **Loja/Pagamento**: Sistema de loja com diferentes formas de pagamento e cálculo de descontos |
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -173,41 +253,92 @@ java-fundamentos-logica/
 
 ## 🎓 Como Estudar
 
+### Para Iniciantes
 1. **Comece pelos fundamentos**: Variáveis, tipos de dados e operadores
 2. **Pratique as estruturas**: Condicionais e loops
 3. **Explore os arrays**: Vetores e matrizes
-4. **Resolva os exercícios**: Aplique os conceitos aprendidos
-5. **Experimente**: Modifique os códigos e teste diferentes cenários
+4. **Resolva os exercícios básicos**: Aplique os conceitos aprendidos
+
+### Progressão Intermediária
+5. **Estude POO básico**: Classes, objetos e métodos (pasta `POO/conceitos/`)
+6. **Pratique exercícios de POO**: Resolva os exercícios em `Exercicios Orientacao a Objetos/`
+7. **Explore encapsulamento**: Getters, Setters e modificadores de acesso
+8. **Aprenda herança**: Reutilização de código através de herança
+
+### Nível Avançado
+9. **Domine polimorfismo**: Sobrecarga e sobrescrita de métodos
+10. **Trabalhe com interfaces**: Contratos e implementação
+11. **Explore estruturas avançadas**: Collections, Maps, Stacks, Queues
+12. **Pratique tratamento de erros**: Try-catch e exceções personalizadas
 
 ## 💡 Dicas de Estudo
 
-- Execute cada exemplo e observe o resultado
-- Comente e descomente linhas para entender o comportamento
-- Modifique valores e veja como afeta a execução
-- Tente criar suas próprias variações dos exercícios
-- Use o debugger para acompanhar a execução passo a passo
+### Práticas Recomendadas
+- ✅ Execute cada exemplo e observe o resultado
+- ✅ Comente e descomente linhas para entender o comportamento
+- ✅ Modifique valores e veja como afeta a execução
+- ✅ Tente criar suas próprias variações dos exercícios
+- ✅ Use o debugger para acompanhar a execução passo a passo
+
+### Metodologia de Aprendizado
+1. **Leia o código**: Entenda a estrutura e lógica antes de executar
+2. **Execute o programa**: Veja o resultado na prática
+3. **Modifique o código**: Faça pequenas alterações e teste
+4. **Crie variações**: Implemente funcionalidades adicionais
+5. **Documente seu aprendizado**: Comente o código com suas observações
+
+### Recursos Úteis
+- 📚 Documentação oficial do Java: [docs.oracle.com/javase](https://docs.oracle.com/javase)
+- 🎥 Tutoriais em vídeo sobre Java
+- 💬 Comunidades: Stack Overflow, Reddit r/learnjava
+- 📖 Livros recomendados: "Java: Como Programar" (Deitel)
 
 ## 🤝 Contribuições
 
 Contribuições são sempre bem-vindas! Para contribuir:
 
 1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
+2. Crie uma branch para sua feature (`git checkout -b feature/NovoExercicio`)
+3. Commit suas mudanças seguindo o padrão conventional commits:
+   - `feat:` para novos recursos
+   - `fix:` para correções
+   - `docs:` para documentação
+   - `refactor:` para refatorações
+4. Push para a branch (`git push origin feature/NovoExercicio`)
 5. Abra um Pull Request
+
+### Sugestões de Contribuição
+- Adicionar novos exercícios práticos
+- Melhorar documentação de código existente
+- Criar exemplos de uso mais complexos
+- Reportar bugs ou problemas encontrados
+- Sugerir melhorias na organização do projeto
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-Sinta-se à vontade para utilizar o código para fins de aprendizado e estudo.
+Este projeto está sob a licença MIT. Sinta-se à vontade para utilizar o código para fins de aprendizado e estudo.
+
+## 📊 Estatísticas do Projeto
+
+- 📁 **4 Módulos principais**: Exercícios, POO, Fundamentos, Extras
+- 📝 **50+ arquivos** de exemplos e exercícios
+- 🎯 **18 exercícios** de Orientação a Objetos
+- 🧩 **9 conceitos de POO** implementados
+- 📚 **20+ tópicos** de fundamentos Java
 
 ## 📞 Contato
 
 **Wenderson José**
 - 📧 Email: wenderson.teles@icloud.com
 - 💼 GitHub: [@Wendersonjose](https://github.com/Wendersonjose)
+- 📝 LinkedIn: [Wenderson José](https://www.linkedin.com/in/wendersonjose)
 
 ---
 
+<div align="center">
+
 ⭐ **Se este projeto te ajudou, considere dar uma estrela no repositório!** ⭐
+
+**Feito com ❤️ para a comunidade de desenvolvedores Java**
+
+</div>
