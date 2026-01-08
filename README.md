@@ -59,7 +59,8 @@ java-fundamentos-logica/
 │   ├── ex03/                        # Classe Média
 │   ├── ex04/                        # Classe Contador
 │   ├── ex05/                        # Herança: Produto, Eletrônico, Vestuário
-│   └── ex06/                        # Sistema de Pagamento (Loja)
+│   ├── ex06/                        # Sistema de Pagamento (Loja)
+│   └── ex07/                        # Padrão Singleton e Lista de Pessoas
 ├── Extras/                          # Exemplos extras
 │   ├── ExemploArrayList.java
 │   ├── ExemploHashMap.java
@@ -211,6 +212,14 @@ java-fundamentos-logica/
 - Implementar formas de pagamento: À vista, Cartão, Boleto
 - Cálculo de descontos e acréscimos
 
+### Exercício 07 - Padrão Singleton
+**Objetivo**: Implementar padrão de projeto Singleton
+- Classe `Padrao` implementando Singleton pattern
+- Garantir única instância da classe
+- Classe `Pessoa` para armazenar dados
+- Métodos para cadastrar e listar pessoas
+- Gerenciamento centralizado de lista de pessoas
+
 ### 🎯 Exercícios Práticos de Lógica
 | Arquivo | Descrição |
 |---------|-----------|
@@ -236,6 +245,7 @@ java-fundamentos-logica/
 | **ex04** | Estado e Controle | **Contador**: Classe com incremento, decremento e reset de contador |
 | **ex05** | Herança e Especialização | **Produto/Eletronico/Vestuario**: Sistema de produtos com herança e cálculo de preço final |
 | **ex06** | Sistema Completo | **Loja/Pagamento**: Sistema de loja com diferentes formas de pagamento e cálculo de descontos |
+| **ex07** | Padrão Singleton | **Pessoa/Padrao**: Implementação do padrão Singleton para gerenciamento de lista de pessoas |
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -322,7 +332,7 @@ Este projeto está sob a licença MIT. Sinta-se à vontade para utilizar o códi
 
 - 📁 **4 Módulos principais**: Exercícios, POO, Fundamentos, Extras
 - 📝 **50+ arquivos** de exemplos e exercícios
-- 🎯 **18 exercícios** de Orientação a Objetos
+- 🎯 **19 exercícios** de Orientação a Objetos (7 exercícios POO + 12 exercícios de lógica)
 - 🧩 **9 conceitos de POO** implementados
 - 📚 **20+ tópicos** de fundamentos Java
 
